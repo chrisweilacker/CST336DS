@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+        
+            <br /> <br />
+            <h2>Data Mining</h2>
+            <main>
+                
+                <figure>
+                    <img src="img/datamining.png" width=400 alt="Data Mining"/>
+                </figure>
+                
+                <div>
+                      
+                       <p>Data Mining is a technique used by many Data Scienceists which is a process for finding patterns in large data sets, which can utilize statistical 
+                       methods as well as Machine Learning. While the word mining is used its meaning is often mistaken, it is actually not the process of gathering the data but the 
+                       process of actually looking at large amounts of data in new ways to find correlations and insights through Machine learning and statistics.</p>
+                       
+                       <p>One can learn more about  <a href="https://en.wikipedia.org/wiki/Data_mining">Data Mining from Wikipedia</a>.</p>
+                       
+                       <h3>- <span class="signature">Chris Weilacker</span></h3>
+
+                </div>
+            
+            </main>
+            <script>
+            $("document").ready(function() {
+                $("#dataMineNav").addClass("current");
+            });
+            </script>
+<%- include('partials/footer.ejs', {companyName: companyName, phoneNumber: phoneNumber, email: email}) %>

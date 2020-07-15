@@ -1,0 +1,37 @@
+<%- include('partials/header.ejs') %>
+        
+            <br /> <br />
+            <h2>Data Visualization</h2>
+            <main>
+                
+                <div>
+                      <img width=400 src="img/FacebookNetwork.jpg" alt="Credit for image goes to: https://commons.wikimedia.org/wiki/User:Kencf0618"/>
+                </div>
+                
+                <div>
+                 
+                       <p>Data Visualization is the graphic representation of data to get ones point across about relationships derived from data. This 
+                       can be in the form of graphs, plots, statistical graphics, informative graphics and other such tools such as the network graphic 
+                       on the left of the relationships between facebook users.</p>
+                       
+                       <blockquote>Data visualization is both an art and a science. It is viewed as a branch of descriptive statistics by some, but also as a 
+                       grounded theory development tool by others. Increased amounts of data created by Internet activity and an expanding number of sensors
+                       in the environment are referred to as "big data" or Internet of things. Processing, analyzing and communicating this data present
+                       ethical and analytical challenges for data visualization. The field of data science and practitioners called data scientists help 
+                       address this challenge.<br/>- <span class="signature">Wikipedia</span></blockquote> 
+                       
+                       
+                       <p>One can learn more about <a href="https://en.wikipedia.org/wiki/Data_visualization">Data Visualization from Wikipedia</a>.</p>
+                       
+                       
+                       <h3>- <span class="signature">Chris Weilacker</span></h3>
+
+                </div>
+            
+            </main>
+            <script>
+            $("document").ready(function() {
+                $("#dataVisNav").addClass("current");
+            });
+            </script>
+<%- include('partials/footer.ejs', {companyName: companyName, phoneNumber: phoneNumber, email: email}) %>

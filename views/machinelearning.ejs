@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs') %>
+        
+            <br /> <br />
+            <h2>Machine Learning</h2>
+            <main>
+                
+                <div>
+                      <img width=220 src="img/waymo.jpg" alt="Credit for image goes to:https://commons.wikimedia.org/wiki/User:Grendelkhan"/>
+                </div>
+                <div>
+
+                       <p>Machine Learning is considered by many to be a Data Science sub field that deals with Computers learning through experience.  The most popular
+                       area that people think about would be Self Driving cars, such as those from Google and Telsa though that is just one area where Machine 
+                       learning can be applied.  In Machine learning a mathematical model is built whereby sample/training data is inputted and the computer is "taught"
+                       how to improve. Machine learning is related to <a href="datamining.html"> Data Mining</a> which can utilize unsupervised learning of gathered data. </p>
+                       
+                       <p>One can learn more about <a href="https://en.wikipedia.org/wiki/Machine_learning">Machine Learning from Wikipedia</a>.</p>
+                       
+                       
+                       <h3>- <span class="signature">Chris Weilacker</span></h3>
+
+                </div>
+            
+            </main>
+            <script>
+                $("document").ready(function() {
+                    $("#machLearnNav").addClass("current");
+                });
+            </script>
+<%- include('partials/footer.ejs', {companyName: companyName, phoneNumber: phoneNumber, email: email}) %>

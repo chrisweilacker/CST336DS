@@ -1,0 +1,41 @@
+<%- include('partials/header.ejs') %>
+        
+            <br /> <br />
+            <h2>Data Science: An Introduction</h2>
+            <main>
+                
+                <figure>
+                    <img src="img/DataScience.png" width=400 alt="Data Science Topics"/>
+                </figure>
+                
+                <div>
+
+                  
+                   <p>Data Science is a field with a number of sub-disciplines inside. As one of the largest growing fields in Computer Sciece it is important for a Computer Science student
+                   to learn a bit about Data Science and the possiblities that one has when one leaves school and enters the workforce.  Data science as a field unifies statistics, data 
+                   mining, data analysis and machine learning in order to "understand and analyze actual phenomena" with data. It uses techniques and theories drawn from many fields within
+                   the context of mathematics, statistics, computer science, domain knowledge and information science. According to Jim Gray, a Turing award winner, 
+                   he imagined data science as a <q>fourth paradigm</q> of science noting that <q>everything about science is changing because of the impact of information technology</q>.</p>
+                   
+                   <p>One can learn more about <a href="https://en.wikipedia.org/wiki/Data_science">Data Science from Wikipedia</a>.</p>
+                   
+                   <p>Some of the subfields/techniques of Data Science that this site will explore are the following:</p>
+                   
+                   <ol>
+                       <li><a href="/machinelearning">Machine Learning</a></li>
+                       <li><a href="/datamining">Data Mining</a></li>
+                       <li><a href="/datavisualization">Data Visualization</a></li>
+                   </ol>
+                   
+                   
+                   <h3>- <span class="signature">Chris Weilacker</span></h3>
+                
+                </div>
+            
+            </main>
+            <script>
+            $("document").ready(function() {
+                $("#homeNav").addClass("current");
+            });
+            </script>
+<%- include('partials/footer.ejs', {companyName: companyName, phoneNumber: phoneNumber, email: email}) %>

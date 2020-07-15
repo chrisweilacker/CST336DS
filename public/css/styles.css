@@ -1,0 +1,97 @@
+body {
+    background-color:darkblue;
+    color:white;
+    font-family: Calibri,sans-serif;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    
+}
+
+img {
+    padding: 20px;
+}
+
+
+header, nav, h2, footer {
+    text-align: center;
+}
+
+main {
+    text-align: left;
+}
+
+main div {
+    max-width: 800px;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px;
+    font-size: 2em;
+
+    transition: .75s; 
+}
+
+nav a:visited {
+    color:white;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    font-family: Arial, sans-serif; 
+}
+
+.current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 10.5px;
+    color: white;
+}
+
+footer div {
+    display:flex;
+    justify-content: center;
+}
+
+footer div div {
+    align-items: center;
+}
+
+footer img {
+    height: 100px;
+    width: 100px;
+}
+
+ol {
+    text-align: left;
+    list-style-type: upper-roman;
+}
+
+.signature {
+    color: orange;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
