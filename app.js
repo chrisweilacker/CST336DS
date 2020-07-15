@@ -6,12 +6,8 @@ app.use(express.static("public"));
 
 //routes
 app.get("/", function(req, res) {
-    let fake = {
-        companyName: faker.company.companyName(),
-        phoneNumber: faker.phone.phoneNumber(),
-        email: faker.internet.email()
-        
-    };
+    
+    //render home page with fake company and contact data
     res.render("index.ejs", {
         companyName: faker.company.companyName(),
         phoneNumber: faker.phone.phoneNumber(),
@@ -20,11 +16,8 @@ app.get("/", function(req, res) {
 });
 
 app.get("/datamining", function(req, res) {
-    let fake = {
-        companyName: faker.company.companyName(),
-        phoneNumber: faker.phone.phoneNumber(),
-        email: faker.internet.email()
-    };
+    
+    //render datamining page with fake company and contact data
     res.render("datamining.ejs",{
         companyName: faker.company.companyName(),
         phoneNumber: faker.phone.phoneNumber(),
@@ -33,12 +26,8 @@ app.get("/datamining", function(req, res) {
 });
 
 app.get("/datavisualization", function(req, res) {
-    let fake = {
-        companyName: faker.company.companyName(),
-        phoneNumber: faker.phone.phoneNumber(),
-        email: faker.internet.email()
-        
-    };
+    
+    //render datavisualization page with fake company and contact data
     res.render("datavisualization.ejs", {
         companyName: faker.company.companyName(),
         phoneNumber: faker.phone.phoneNumber(),
@@ -47,12 +36,8 @@ app.get("/datavisualization", function(req, res) {
 });
 
 app.get("/machinelearning", function(req, res) {
-    let fake = {
-        companyName: faker.company.companyName(),
-        phoneNumber: faker.phone.phoneNumber(),
-        email: faker.internet.email()
-        
-    };
+    
+    //render machinelearning page with fake company and contact data
     res.render("machinelearning.ejs", {
         companyName: faker.company.companyName(),
         phoneNumber: faker.phone.phoneNumber(),
